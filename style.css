@@ -1,0 +1,96 @@
+/* * is a special css element that effects everything */
+
+* {
+    font-family: "Lucida Grande", "Helvetica", "Arial", sans-serif; /* This sets the font family. Since it is inside a *, it does it for every element */
+}
+
+/* things without . do not affect classes, they affect html tags such as <html>, <body> */
+
+html, body {
+    margin: 0px; /* Margin is the area outside of the box that is padded */
+}
+
+body {
+    background-color: rgb(68, 118, 203);  /* Background-Color sets the background color of an element */
+}
+
+/* things with . affect classes. they affect html tags that have class="" inside of them, like this: <body class="namehere"> */
+
+.content {
+    margin: 8px; /* Margin is the area outside of the box that is padded */
+    margin-top: 50px;
+}
+
+.modslist {
+    display: flex; /* flex stuff, confusing */
+    flex-direction: row; 
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px; 
+}
+
+.mod {
+    width: 200px; /* Width of the element */
+     /* Padding but on the right of the element */
+    height: 275px;
+    border: black;
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-width: 3px;
+    border-radius: 3px;
+    padding: 5px;
+    background: rgb(156 156 156 / 49%);
+}
+
+.navbar {
+    position: fixed; /* position: fixed makes this always on screen */
+    height: 20px; /* height sets the height */
+    top: 0; /* top sets the top position */
+    width: 100%; /* width: 100% makes this fill the screen */
+    background-color: rgb(137, 3, 3);  /* Background-Color sets the background color of an element */
+    background: linear-gradient(rgb(137, 3, 3),rgb(56, 1, 1)); /* Background can also set the background color of an element, but can do way more. I use it here for just in case browser don't support linear-gradient */
+    padding: 10px; /* Padding is the area inside of the box that is padded */
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 35%); /* box-shadow makes a drop shadow. confusing */
+    display: table-cell; /* Changes the way how elemnts are organised */
+}
+
+/* things with . affect classes, but if you add a space, that allows you to customise the childs of a class/element only. */
+
+.navbar a {
+    color: rgb(255, 255, 255); /* Color is text color */
+    text-decoration: none; /* Text decoration is underlines, etc */
+}
+
+.mod img {
+    width: 180px; /* Width of the element */
+    margin-left: 10px; /* Margin Left, is the margin for the left side of the content */
+    height: 180px;
+    border: black;
+    border-style: solid;
+}
+
+.mod p {
+    height: 60px;
+    width: 190px;
+    text-align: center;
+    text-overflow: ellipsis;
+    margin: 0px;
+}
+
+.mod p a {
+    margin-left: 0px !important;
+}
+
+.modslist a {
+    margin-left: 20px;
+}
+
+/* a:hover only is used when well, hovering */
+
+.navbar a:hover {
+    color: rgb(255, 255, 255); /* Color is text color */
+    text-decoration: underline; /* Text decoration is underlines, etc */
+}
