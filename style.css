@@ -47,7 +47,7 @@ body {
 
 .navbar {
     position: fixed; /* position: fixed makes this always on screen */
-    height: 20px; /* height sets the height */
+    height: 35px; /* height sets the height */
     top: 0; /* top sets the top position */
     width: 100%; /* width: 100% makes this fill the screen */
     background-color: rgb(137, 3, 3);  /* Background-Color sets the background color of an element */
