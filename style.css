@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-    background-color: rgb(68, 118, 203);  /* Background-Color sets the background color of an element */
+    background-color: rgb(185 185 185);  /* Background-Color sets the background color of an element */
 }
 
 /* things with . affect classes. they affect html tags that have class="" inside of them, like this: <body class="namehere"> */
