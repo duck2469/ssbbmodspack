@@ -35,7 +35,7 @@ body {
 .mod {
     width: 200px; /* Width of the element */
      /* Padding but on the right of the element */
-    height: 275px;
+    height: 285px;
     border: black;
     border-style: solid;
     margin-top: 10px;
