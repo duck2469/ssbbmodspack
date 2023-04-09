@@ -20,6 +20,7 @@ body {
     margin: 8px; /* Margin is the area outside of the box that is padded */
     margin-top: 50px;
     text-align: center;
+    padding: 8px;
 }
 
 .modslist {
